@@ -26,6 +26,10 @@ VOYAGE_EMBED_MODEL = os.getenv("TELEO_VOYAGE_MODEL", "voyage-3")
 
 PAUSE_FLAG_PATH = str(ROOT / ".paused")
 
+# Visible browser by default (the demo shows the agent working). Override with
+# TELEO_HEADLESS=true for CI/headless test runs.
+HEADLESS = os.getenv("TELEO_HEADLESS", "false").lower() == "true"
+
 
 def has_anthropic() -> bool:
     return bool(ANTHROPIC_API_KEY and ANTHROPIC_API_KEY.startswith("sk-ant"))
