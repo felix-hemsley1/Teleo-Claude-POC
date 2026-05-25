@@ -1,0 +1,17 @@
+anthropic>=0.40.0
+voyageai>=0.2.0
+hdbscan>=0.8.33
+numpy>=1.26.0
+pandas>=2.1.0
+playwright>=1.45.0
+pywinauto>=0.6.8
+pywin32>=306
+comtypes>=1.2.0
+keyboard>=0.13.5
+mouse>=0.7.1
+streamlit>=1.32.0
+apscheduler>=3.10.0
+sqlite-utils>=3.36
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+windows-toasts>=1.1.0
