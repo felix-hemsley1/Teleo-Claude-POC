@@ -1,0 +1,11 @@
+[project]
+name = "teleo-poc"
+version = "0.1.0"
+description = "Teleo MVP - self-teaching artificial employees"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+packages = ["capture", "pipeline", "execution", "storage", "ui", "shared"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
